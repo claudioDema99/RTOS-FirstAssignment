@@ -20,7 +20,7 @@ Here is the tasks of the assignment:
 	2. writes to the driver its identifier plus open square brackets (i.e., [1, [2, [3, or [4)  
 	3. close the special files  
 	4. performs operations (i.e., wasting time)  
-	5. performs (1)(2) and (3) again to write to the driver its identifier, but with closed square brackets (i.e., 1], 2], 3] or 4]).  
+	5. performs (i)(ii) and (iii) again to write to the driver its identifier, but with closed square brackets (i.e., 1], 2], 3] or 4]).  
 
 * The write system call writes on the kernel log the string received from the thread. A typical output of the system, when reading the kernel log, can be the following [11][2[11]2][3[11]3][4]. This sequence clearly shows that some threads can be preempted by other threads (if this does not happen, try to increase the computational time of longer tasks).
 
