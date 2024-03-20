@@ -15,7 +15,7 @@ Here is the tasks of the assignment:
 * Design a simple driver with only open, close, and write system calls.
 
 * During its execution, every task:  
-
+	
 	1. opens the special file associated with the driver;  
 	2. writes to the driver its identifier plus open square brackets (i.e., [1, [2, [3, or [4)  
 	3. close the special files  
